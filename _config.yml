@@ -25,7 +25,7 @@ title:              ds4ps   # GitHub account name
 
 brand:
     image:          # logo.svg  # e.g. logo.png, upload logo image file to /assets/img/ folder
-    text:           "Data Science"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
+    text:           "Intro to Data Science"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 
 
