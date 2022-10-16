@@ -9,10 +9,6 @@
 ###  COURSE INFO
 ###
 
-url :               "https://ds4ps.github.io"
-baseurl:            "/intro-data-science-TEMPLATE"
-course_url:         "https://ds4ps.github.io/intro-data-science-TEMPLATE/"
-title:              ds4ps   # GitHub account name
 
 github_info:
     username:       DS4PS   # GitHub account name
@@ -22,15 +18,26 @@ github_info:
  
 description:        Intro. course in data science
 
+url:                "https://ds4ps.github.io"
+baseurl:            "/intro-data-science-TEMPLATE"
+course_url:         "https://ds4ps.github.io/intro-data-science-TEMPLATE/"
+title:              ds4ps   # GitHub account name
 
 brand:
     image:          # logo.svg  # e.g. logo.png, upload logo image file to /assets/img/ folder
     text:           "Data Science"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
+
+
+###
+###  YOUR PROGRAM INFO
+###
+
 program-logo:       "demo-logo.png"
 
-# header color set at assets/css/custom.css under default_nav and footer background-color
-      
+program-website:    "https://ds4ps.org/ms-prog-eval-data-analytics/courses/"
+
+     
 
 
 
@@ -70,7 +77,8 @@ header:
   url: help/
 
 
-
+# set navbar color at assets/css/custom.css under default_nav and footer background-color
+ 
 
 
 

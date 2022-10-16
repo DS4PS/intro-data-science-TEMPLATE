@@ -68,7 +68,7 @@
                 <a href="https://github.com/{{ site.github_info.username }}/{{ site.github_info.website-repo }}/edit/main/{{page.path}}" target = "_blank"> <i class="fab fa-github" id="github_icon"></i></a>
                </li>
                <li>
-               <a href="https://ds4ps.org/ms-prog-eval-data-analytics/courses/" target = "_blank"> <i class="fas fa-sun" id="github_icon"></i></a>
+               <a href="{{ site.program-website | absolute_url }}" target = "_blank"> <i class="fas fa-sun" id="github_icon"></i></a>
                </li>
 
             </ul>
@@ -123,7 +123,7 @@
 <div class="uk-container">
     <div class="row">
       <div  >
-          <img  id="logo" src="assets/img/{{site.program-logo}}" align="left" style="width:600px;height:180px;" >
+          <img  id="logo" src="{{site.course_url}}/assets/img/{{site.program-logo}}" align="left" style="width:600px;height:180px;" >
         </div>
 
         <div class="col-lg-5 col-md-3 col-xs-4">
