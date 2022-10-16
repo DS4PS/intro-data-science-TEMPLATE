@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/wesbos/Font-Awesome-Docker-Icon/master/fontcustom/fontcustom.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  
+
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% seo %} 
+  {% seo %}
   <meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.post_assets | absolute_url }}{{ site.brand.image }}{% endif %}"/>
- 
+
   <link rel="shortcut icon" type="image/png" href="{{ "assets/icons/favicon-32x32.png" | relative_url }}" >
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <script src="{{ "assets/js/main.js" | relative_url }}"></script>
@@ -54,12 +54,12 @@
                         {% assign current = null %}
                     {% endif %}
                     {% if link.title %}
-                        
-                   {% if link.url contains 'http' %} 
-                    <li{{ current }}><a href="{{ link.url }}" id="list"  target="_blank"; style="color: black;">{{ link.title }}</a> 
+
+                   {% if link.url contains 'http' %}
+                    <li{{ current }}><a href="{{ link.url }}" id="list"  target="_blank"; style="color: black;">{{ link.title }}</a>
                  </li>
-                   {% else %} 
-                    <li{{ current }}><a href="{{ domain }}/{{ site.github_info.website-repo }}/{{ link.url }}" id="list" style="color: black;">{{ link.title }}</a> 
+                   {% else %}
+                    <li{{ current }}><a href="{{ domain }}/{{ site.github_info.website-repo }}/{{ link.url }}" id="list" style="color: black;">{{ link.title }}</a>
                  </li>
                  {% endif %}
                     {% endif %}
@@ -72,8 +72,8 @@
                </li>
 
             </ul>
-           
-            
+
+
             <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a>
 
           </div>
@@ -83,17 +83,17 @@
         </nav>
     </div>
 </header>
- 
- 
- 
+
+
+
 <div class = "uk-container">
 {{content}}
 </div>
- 
+
     {% include offcanvas.html %}
 
 
-{% if page.disqus == true %} 
+{% if page.disqus == true %}
     {% include disqus_comments.html %}
 {%  endif %}
 
@@ -109,7 +109,7 @@
     <div class="uk-container" >
         <div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
             <h3 style="font-family:courier;">{{ page.cta.title }}</h3>
-            {% if page.cta.subtitle %}<p class="subtitle uk-text-lead uk-text-center">{{ page.cta.subtitle | escape }}</p>{% endif %} 
+            {% if page.cta.subtitle %}<p class="subtitle uk-text-lead uk-text-center">{{ page.cta.subtitle | escape }}</p>{% endif %}
             <a class="uk-button uk-button-primary uk-button-large button-cta" href="{{ domain }}{{ page.cta.button_url }}">{{ page.cta.button_text }}</a>
         </div>
     </div>
@@ -118,14 +118,14 @@
 
 {% include offcanvas.html %}
 
- 
+
 <footer class="uk-section uk-text-center uk-link-muted" >
 <div class="uk-container">
     <div class="row">
       <div  >
-          <img  id="logo" src="{{ "assets/img/asu.png" | relative_url }}" align="left" style="width:600px;height:180px;" >
+          <img  id="logo" src="assets/img/{{site.program-logo}} | relative_url" align="left" style="width:600px;height:180px;" >
         </div>
-      
+
         <div class="col-lg-5 col-md-3 col-xs-4">
           <table>
                 {% for link in site.header %}
@@ -140,12 +140,12 @@
                         {% assign current = null %}
                     {% endif %}
                     {% if link.title %}
-                        
-                   {% if link.url contains 'http' %} 
+
+                   {% if link.url contains 'http' %}
                     <tr>
                       <td id="footer" ><a href="{{ link.url }}" target="_blank"; style="color: black" >{{ link.title }}</a></td>
                     </tr>
-                   {% else %} 
+                   {% else %}
                     <tr>
                       <td id="footer" ><a href="{{ domain }}/{{ site.github_info.website-repo }}/{{ link.url }}" style="color: black">{{ link.title }}</a></td>
                     </tr>
@@ -153,7 +153,7 @@
                    {% endif %}
                 {% endfor %}
             </table>
-         
+
         </div>
       </div>
        <div class="row">
@@ -165,7 +165,7 @@
           </div>
         </div>
     </div>
-</footer>   
+</footer>
 
 
  </body>
