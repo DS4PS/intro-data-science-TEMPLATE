@@ -68,11 +68,23 @@ This tutorial will walk you through the steps
 
 ![](assets/img/clone-w-template.png)
 
+
+<br> 
+<hr> 
+<br>
+
+
 ### Activating GitHub Pages
 
 Settings >> Pages  >> Main Branch >> Root Folder
 
 ![](assets/img/activate-pages.png)
+
+
+<br> 
+<hr> 
+<br>
+
 
 ### Setting Global Parameters in _config.yml
 
