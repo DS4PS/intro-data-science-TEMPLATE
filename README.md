@@ -2,6 +2,8 @@
 
 Template repository for an introductory course in data science. 
 
+{:toc}
+
 ## Open Source Courses on GitHub
 
 This repository is designed as a demonstration for how instructors can turn their courses into "source code" so that it can be shared, repurposed, and extended. 
