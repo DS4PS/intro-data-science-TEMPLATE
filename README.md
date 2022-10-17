@@ -83,8 +83,11 @@ If you are unable to access the template you can always fork or clone the projec
 
 Settings >> Pages  >> Main Branch >> Root Folder
 
-![](assets/img/activate-pages.png)
+<br> 
 
+
+<img src="assets/img/activate-pages.png" width="500">
+ 
 
 <br> 
 <hr> 
