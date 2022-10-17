@@ -63,7 +63,7 @@ You will start by navigating to your personal GitHub account and select the opti
 
 
     
-<img src="assets/img/clone-w-template.png" width="300">
+<img src="assets/img/clone-w-template.png" width="450">
     
 
 
