@@ -28,6 +28,32 @@ We have created a few basic page templates to make it easy to build a course sit
 * [Review Sessions](https://watts-college.github.io/cpp-527-fall-2021/review/)
 
 
+### Setup Overview
+
+In order to create your own course website you need to complete the following steps: 
+
+1. Clone this repository using it as a template, or alternatively fork it. 
+2. Under settings activate the GitHub pages option. 
+3. Customize the course parameters in the header of each page, such as course info, instructor info, and assignment due dates. 
+
+That's it! You are ready to go. Once pages are activated on GitHub the rest of the files should have rendered to HTML as the GitHub servers and will be live after just a few minutes. 
+
+You can now customize the course shell by editing any of the markdown files in the root folder, such as the syllabus (index.md) or schedule (schedule.md). 
+
+If you want to change any of the course material you need to make a copy of the files on your local machine by **cloning** the repo. You can then edit R Markdown files in the **units**, knit them to create new HTML files, then sync those files to GitHub. I would recommend using the GitHub desktop tool, which makes these steps easy. 
+
+**Cloning  in GitHub Desktop**
+
+> File >> Clone repository 
+
+Use the URL of your GitHub repository (for example, https://github.com/DS4PS/intro-data-science-TEMPLATE) and save the project folder in your preferred local directory. 
+
+After local files have been updated you send them back to GitHub using the commit >> push commands. 
+
+
+<br> 
+<hr> 
+<br>
 
 
 
@@ -44,7 +70,7 @@ This tutorial will walk you through the steps
 
 Settings >> Pages  >> Main Branch >> Root Folder
 
-![](activate-pages.png)
+![](assets/img/activate-pages.png)
 
 ### Setting Global Parameters in _config.yml
 
