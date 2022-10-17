@@ -70,7 +70,7 @@ Select:
 
 * DS4PS/intro-data-science-TEMPLATE 
 * public repository 
-* There is only one branch, so no need to import all branches. 
+* There is only one branch, so no need to include all branches. 
 
 If you are unable to access the template you can always fork or clone the project repository as well. The main advantage of using a template is that it copies all of the files to for you quickly, but you can accomplish the same thing by cloning the repository instead. 
 
