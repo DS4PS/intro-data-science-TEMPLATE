@@ -98,7 +98,7 @@ course_url:         "https://ds4ps.github.io/intro-data-science-TEMPLATE/"
 title:              ds4ps   # GitHub account name
 
 brand:
-    text:           "Intro to Data Science"    # if the above "logo:" image variable  is not set, this text logo is displayed instead
+    text:           "Intro to Data Science"   
 ```
 
 There are options to customize the site with some branding from your home university or program. 
