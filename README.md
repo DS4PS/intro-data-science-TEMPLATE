@@ -61,11 +61,12 @@ You will start by navigating to your personal GitHub account and select the opti
 
 <br>
 
-<div style="width: 50%">
+
     
-![](assets/img/clone-w-template.png) 
+<img src="assets/img/clone-w-template.png" width="50">
     
-</div>
+
+
 
 <br> 
 <hr> 
