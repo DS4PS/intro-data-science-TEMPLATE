@@ -237,29 +237,18 @@ textbooks:
   edition: Free Online
   link: http://r4ds.had.co.nz/
   required: Not Required
-- title: The Art of Data Science
-  authors: Peng, R. D., & Matsui, E.
-  edition: Free Online
-  link: https://leanpub.com/artofdatascience
-  required: Not Required
-- title: 'Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures'
-  authors: C.O. Wilke
-  edition: Free Online
-  link: https://serialmentor.com/dataviz/
-  required: Not Required
-- title: Modern Dive, Intro to Stats and Data Sciences via R
-  authors: Chester Ismay & Albert Y. Kim
-  edition: Free Online
-  link: https://moderndive.com/4-tidy.html
-  required: Not Required  
-- title: Big Book of Dashboards
-  authors: Smith, Smith, and Johnson
-  edition: 2017
-  link: https://www.amazon.com/Big-Book-Dashboards-Visualizing-Real-World/dp/1119282713/
-  required: Not Required
+
+...
 
 ---
 ```
+
+<br> 
+
+Once rendered on the syllabus page, the fields will look like this: 
+
+<br> 
+
 
 ![](assets/img/syllabus.png)
 
