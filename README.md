@@ -320,7 +320,7 @@ For example, the lab due date and submission options are written as follows:
 And will show up like this on the page: 
 
 
-<img src="assets/img/yaml-example.png" width="150">
+<img src="assets/img/yaml-example.png" width="250">
  
 
 <br> 
