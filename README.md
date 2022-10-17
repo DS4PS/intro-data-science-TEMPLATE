@@ -40,13 +40,15 @@ That's it! You are ready to go. Once pages are activated on GitHub the rest of t
 
 You can now customize the course shell by editing any of the markdown files in the root folder, such as the syllabus (index.md) or schedule (schedule.md). 
 
-If you want to change any of the course material you need to make a copy of the files on your local machine by **cloning** the repo. You can then edit R Markdown files in the **units**, knit them to create new HTML files, then sync those files to GitHub. I would recommend using the GitHub desktop tool, which makes these steps easy. 
+If you want to change any of the course material you need to make a copy of the files on your local machine by **cloning** the repo. You can then edit R Markdown files in the **units**, knit them to create new HTML files, then sync those files to GitHub. I would recommend using the [GitHub desktop tool](https://desktop.github.com/), which makes these steps easy. 
 
 **Cloning  in GitHub Desktop**
 
 > File >> Clone repository 
 
 Use the URL of your GitHub repository (for example, https://github.com/DS4PS/intro-data-science-TEMPLATE) and save the project folder in your preferred local directory. 
+
+**Syncing Files**
 
 After local files have been updated you send them back to GitHub using the commit >> push commands. 
 
