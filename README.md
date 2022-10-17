@@ -61,8 +61,9 @@ You will start by navigating to your personal GitHub account and select the opti
 
 <br>
 
+<div style="width: 70%">
 ![](assets/img/clone-w-template.png | width=250)
-
+</div>
 
 <br> 
 <hr> 
