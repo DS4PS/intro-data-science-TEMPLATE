@@ -1,8 +1,7 @@
-# GitHub Course Template 
+## GitHub Course Template 
 
 Template repository for an introductory course in data science. 
 
-{:toc}
 
 ## Open Source Courses on GitHub
 
@@ -14,7 +13,7 @@ Multiple instructors have contributed lecture notes, labs, and videos to the rep
 
 Anyone is free to fork the project and use material in their own classroom. 
 
-## GitHub as a Course Management System
+### GitHub as a Course Management System
 
 GitHub has developed powerful tools that make it easy to host your own website from your project repository for free. 
 
@@ -31,9 +30,7 @@ We have created a few basic page templates to make it easy to build a course sit
 
 
 
-## Discussion Boards 
 
-https://ds4ps.org/intro-data-science-TEMPLATE/help/
 
 ## Getting Started
 
@@ -133,7 +130,7 @@ header:
 
 
 
-### Customizing Course Pages 
+## Customizing Course Pages 
 
 * index.md (syllabus / course landing page) 
 * schedule.md  
@@ -141,7 +138,7 @@ header:
 * help.md 
 
 
-#### Syllabus Parameters
+### Syllabus Parameters
 
 ```
 ---
@@ -219,7 +216,7 @@ textbooks:
 ![](assets/img/syllabus.png)
 
 
-#### Schedule Parameters
+### Schedule Parameters
 
 ```
 ---
@@ -289,5 +286,9 @@ And will show up like this on the page:
 
 
 
-#### Review Session Parameters 
+### Review Session Parameters 
 
+
+## Discussion Boards 
+
+https://ds4ps.org/intro-data-science-TEMPLATE/help/
