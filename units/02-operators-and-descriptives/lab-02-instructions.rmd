@@ -33,7 +33,7 @@ I have provided you with a **LAB-02 RMD template**:
 
 <center>
 
-<a href='https://raw.githubusercontent.com/Watts-College/cpp-526-template/main/labs/FlexdashboardRowOrientation.Rmd' target="_blank">
+<a href='https://raw.githubusercontent.com/DS4PS/intro-data-science-TEMPLATE/main/units/02-operators-and-descriptives/lab-02-template.rmd' target="_blank">
 <button type="button" class="button"> DOWNLOAD TEMPLATE </button>
 </a>
 
