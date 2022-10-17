@@ -1,23 +1,16 @@
 ## GitHub Course Template 
 
-Template repository for an introductory course in data science. 
+This repository is designed as a demonstration for how instructors can use open source course files to share, adapt, repurpose and extended content. 
 
-
-## Open Source Courses on GitHub
-
-This repository is designed as a demonstration for how instructors can turn their courses into "source code" so that it can be shared, repurposed, and extended. 
-
-Similar to open course software, when multiple people are working with the same content it can evolve and improve over time. 
-
-Multiple instructors have contributed lecture notes, labs, and videos to the repository. 
+Multiple instructors have contributed lecture notes, labs, and videos to the repository. The content continues to evolve and improve over time. 
 
 Anyone is free to fork the project and use material in their own classroom. 
 
 ### GitHub as a Course Management System
 
-GitHub has developed powerful tools that make it easy to host your own website from your project repository for free. 
+GitHub has also developed powerful tools that make it easy to host your own course website for free. 
 
-Even more impressive, it is easy to clone the current project and change a few settings to customize your class. Your course website can be up and running in 20 minutes. 
+Even more impressive, you can clone this project, change a few settings to customize your class, and be up and running in 20 minutes. 
 
 We have created a few basic page templates to make it easy to build a course site using basic [markdown](https://ds4ps.org/intro-data-science-TEMPLATE/markdown.html). 
 
