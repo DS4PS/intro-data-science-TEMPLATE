@@ -53,13 +53,15 @@ After local files have been updated you send them back to GitHub using the commi
 
 
 
-## Getting Started
+## Using GitHub Templates 
 
-This tutorial will walk you through the steps 
+This tutorial will walk you through the steps of creating your own course using these files as a template. 
 
-### Using Templates 
+You will start by navigating to your personal GitHub account and select the option to create a new repository. When you do so you will get the following dialogue: 
 
-![](assets/img/clone-w-template.png)
+<br>
+
+![](assets/img/clone-w-template.png | width=250)
 
 
 <br> 
