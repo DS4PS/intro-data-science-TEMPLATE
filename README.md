@@ -319,11 +319,21 @@ For example, the lab due date and submission options are written as follows:
 
 And will show up like this on the page: 
 
-![](assets/img/yaml-example.png)
 
+<img src="assets/img/yaml-example.png" width="150">
+ 
+
+<br> 
+<hr>
+<br>
 
 
 ### Review Session Parameters 
+
+
+<br>
+<hr>
+<br>
 
 
 ## Discussion Boards 
