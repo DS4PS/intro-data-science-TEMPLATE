@@ -1,12 +1,24 @@
+# Course Content
+
+This folder contains all of the R files used to create the content for this course. 
+
+They are in a convenient R Markdown (RMD) format, so they can be easily edited and knit in order to update lecture notes and assignments as you see fit. 
+
+Most of the RMD files use CSS files to ensure the HTML pages are clean and easy to read. These style sheets all live in the **html** folder and are referenced in the YAML headers of the RMD files. Updating the CSS files will change the style of all of the HTML documents in the repository, but you will need to render all of them for the changes to take effect. 
+
+
+## Content Map
+
+If you would like to create a content map of all course files contained within the units folder you can use the following R code, setting your working directory to the appropriate path on your computer first. 
 
 ```r
-## PRINT CONTENT
-##
+## PRINT CONTENT MAP
 ## library( fs )
 ## setwd( ".../intro-data-science-TEMPLATE" )
 ## dir_tree( path="units" )
 ```
 
+```
 units
 +-- 00-cheatsheets
 |   +-- base-r-cheatsheet.pdf
@@ -464,3 +476,4 @@ units
     +-- lab-solutions.css
     +-- lecture-notes.css
     \-- ps1-gray.png
+```
