@@ -81,6 +81,10 @@ If you are unable to access the template you can always fork or clone the projec
 
 ### Activating GitHub Pages
 
+You can always view files in a public GitHub repository, but if you want to host HTML files as a live site you first need to activate GitHub pages. 
+
+After you have cloned the course repo onto your personal account navigate to your new project page on GitHub and select:
+
 Settings >> Pages  >> Main Branch >> Root Folder
 
 <br> 
@@ -88,6 +92,9 @@ Settings >> Pages  >> Main Branch >> Root Folder
 
 <img src="assets/img/activate-pages.png" width="500">
  
+<br> 
+
+Once pages are activated then all markdown files will be rendered to HTML on the GitHub servers and all HTML files in your repository will now be visible as website pages instead of raw HTML code. 
 
 <br> 
 <hr> 
