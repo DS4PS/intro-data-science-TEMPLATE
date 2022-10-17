@@ -66,7 +66,12 @@ You will start by navigating to your personal GitHub account and select the opti
 <img src="assets/img/clone-w-template.png" width="450">
     
 
+Select: 
 
+* DS4PS/intro-data-science-TEMPLATE 
+* public repository 
+
+If 
 
 <br> 
 <hr> 
