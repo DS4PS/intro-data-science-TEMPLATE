@@ -6,7 +6,7 @@ output:
     highlight: tango
     toc: true
     number_sections: true
-    self_contained: false
+    self_contained: true
     css: "../html/lecture-notes.css"
 ---
 
@@ -424,9 +424,9 @@ ___
 
 
 
-### Mathematical Formulae
+### Mathematical Formula
 
-A full description of TeX math symbols is beyond the scope of this cheatsheet. Here's a good reference, and you can try stuff out on CodeCogs. You can also play with formulae in the Markdown Here options page.
+A full description of TeX math symbols is beyond the scope of this tutorial. Here's a [good cheatsheet](http://tug.ctan.org/info/undergradmath/undergradmath.pdf), and you can try stuff out on CodeCogs. You can also play with formulas in the `Markdown Here` options page.
 
 Here are some examples to try out:
 
@@ -453,16 +453,27 @@ The beginning and ending dollar signs ($) are the delimiters for the TeX markup.
 
 ### YouTube Videos
 
+The easiest way to embed videos is to click the "share" option on YouTube or a similar video platform and select the "embed" option, which will give you an iframe. 
+
+Or else you can create traditional HTML code, which involves inserting an image with a hyperlink. The difference between the two is that iframes will allow you to watch the video from within the document, whereas the HTML option will take you to the video on a different page. 
+
 
 ```{md, eval=F}
+
+# HTML syntax: 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-OR iframes:
+# OR iframes:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_HERE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; 
+  encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen data-external="1"></iframe>
 
 ```
 
@@ -471,8 +482,13 @@ OR iframes:
 " target="_blank"><img src="http://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+  allowfullscreen="" data-external="1"></iframe>
+
+
+_Note, if your iframe is not rendering as expected you might try adding the argument **data-external="1"**. Typically you can paste the copied iframe text directly from youtube or other hosting services and it works fine, but there have been some changes to how R Markdown renders iframes. [Adding the extra argument is a workaround](https://community.rstudio.com/t/insert-raw-html-iframe-into-rmarkdown/94334/2)._ 
 
 
 
@@ -506,52 +522,6 @@ output:
 ---
 ```
  
-## Output Formats
-
-For a list of document formats that R Markdown supports see the [R Markdown website](http://rmarkdown.rstudio.com/formats.html).
-
-### Documents
-
-* Notebook	Interactive R Notebooks
-* HTML	HTML document w/ Bootstrap CSS
-* PDF	PDF document (via LaTeX template)
-* Word	Microsoft Word document (docx)
-* ODT	OpenDocument Text document
-* RTF	Rich Text Format document
-* Markdown	Markdown document (various flavors)
-
-### Presentations
-
-* ioslides	HTML presentation with ioslides
-* reveal.js	HTML presentation with reveal.js
-* Slidy	HTML presentation with W3C Slidy
-* Beamer	PDF presentation with LaTeX Beamer
-* shower_presentation	Themeable presentations using the Shower framework
-
-### Journals Articles
-
-* jss_article	Journal of Statistical Software (JSS)
-* acm_article	Association for Computing Machinery (ACM)
-* acs_article	American Chemical Society (ACS) Journal
-* ctex	Documents based on the LaTeX package ctex
-* elsevier_article	Submissions to Elsevier journals
-
-### HTML
-
-* html_pretty	Small yet pretty HTML pages
-* readthedown	Format adapted from the Read the docs Sphinx theme
-* html_docco	Format adapted from the docco documentation generator
-* html_clean	Clean and simple HTML format
-
-
-### More
-
-* flexdashboard	Interactive dashboards
-* bookdown	HTML, PDF, ePub, and Kindle books
-* Websites	Multi-page websites
-* Tufte Handout	Handouts in the style of Edward Tufte
-* Package Vignette	R package vignette (HTML)
-* Github Document	GitHub Flavored Markdown document.
 
 
 
@@ -632,10 +602,58 @@ code[class] {
 
 
 
-## Cheat Sheet
+## Cheat Sheets
 
 Learn more by reviewing the [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf).
 
+
+
+# OUTPUT FORMATS
+
+For a list of document formats that R Markdown supports see the [R Markdown website](http://rmarkdown.rstudio.com/formats.html).
+
+## Documents
+
+* Notebook	Interactive R Notebooks
+* HTML	HTML document w/ Bootstrap CSS
+* PDF	PDF document (via LaTeX template)
+* Word	Microsoft Word document (docx)
+* ODT	OpenDocument Text document
+* RTF	Rich Text Format document
+* Markdown	Markdown document (various flavors)
+
+## Presentations
+
+* ioslides	HTML presentation with ioslides
+* reveal.js	HTML presentation with reveal.js
+* Slidy	HTML presentation with W3C Slidy
+* Beamer	PDF presentation with LaTeX Beamer
+* shower_presentation	Themeable presentations using the Shower framework
+
+## Journals Articles
+
+* jss_article	Journal of Statistical Software (JSS)
+* acm_article	Association for Computing Machinery (ACM)
+* acs_article	American Chemical Society (ACS) Journal
+* ctex	Documents based on the LaTeX package ctex
+* elsevier_article	Submissions to Elsevier journals
+
+## HTML
+
+* html_pretty	Small yet pretty HTML pages
+* readthedown	Format adapted from the Read the docs Sphinx theme
+* html_docco	Format adapted from the docco documentation generator
+* html_clean	Clean and simple HTML format
+
+
+## More
+
+* flexdashboard	Interactive dashboards
+* bookdown	HTML, PDF, ePub, and Kindle books
+* Websites	Multi-page websites
+* Tufte Handout	Handouts in the style of Edward Tufte
+* Package Vignette	R package vignette (HTML)
+* Github Document	GitHub Flavored Markdown document.
 
 
 

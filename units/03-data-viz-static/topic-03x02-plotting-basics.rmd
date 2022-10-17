@@ -1,13 +1,12 @@
 ---
+title: "The plot() Function"
 output:
   html_document:
     theme: readable
     highlight: tango
     toc: true
-    toc_depth: 1
-    number_sections: false
-    self_contained: false
-    css: textbook.css
+    toc_depth: 2
+    css: "../html/lecture-notes.css"
 ---
 
 
@@ -22,8 +21,6 @@ library( pander )
 ```
 
 
-
-# The plot() Function
 
 
 
