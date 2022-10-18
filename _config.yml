@@ -67,7 +67,9 @@ calendly:      'https://calendly.com/jamisoncrawford/20min'
 header:
 - title: Syllabus
   url:
-- title: Course Schedule
+- title: Schedule-V1
+  url: schedule-v2/
+- title: Schedule-V2
   url: schedule/
 # - title: Textbook
 #   url: https://ds4ps.org/dp4ss/#dp4ss-data-programming-for-the-social-sciences
