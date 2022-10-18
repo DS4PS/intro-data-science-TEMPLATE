@@ -113,9 +113,11 @@ Once pages are activated then all markdown files will be rendered to HTML on the
 <br>
 
 
-### Setting Global Parameters in _config.yml
+### Website Settings
 
-The configuration file (_config.yml) contains a few settings for the full website that you must edit for your course. 
+**Global Parameters in _config.yml**
+
+The configuration file (\_config.yml) contains website settings that you must edit for your course site to work properly. 
 
 These include the name of your course, urls directed to your GitHub repository, and information about you and the course.
 
@@ -144,26 +146,29 @@ brand:
     text:           "Intro to Data Science"   
 ```
 
-There are options to customize the site with some branding from your home university or program. 
+Fields in the \_config.yml file are unique in that they are global variables, so they can be referenced anywhere in the site.
 
-The **program-website** parameter sets the link attached to the sun at the top-right of the course navigation bar. You can link this back to your home program or another site. 
-
-The **demo-logo.png** is a DIY logo that can be made by saving some power point text as a PNG image. See the file [program-logo.pptx](https://github.com/DS4PS/intro-data-science-TEMPLATE/blob/main/program-logo.pptx) for an example. 
-
-Save your logo into the folder **assets/img/logo-name.png** and updated the YAML field accordingly. Currently it is set to **demo-logo.png**. 
+You can add your own fields, for example a link to an office hours scheduling app. 
 
 ```
-###
-###  YOUR PROGRAM INFO
-###
+calendly: 'https://calendly.com/fakename'
+```
 
-program-logo:       "demo-logo.png"
-program-website:    "https://ds4ps.org/ms-prog-eval-data-analytics/courses/"
-```  
+You can then add the text `{{site.calendly}}` to any site pages and it will show up as the value `https://calendly.com/fakename`. 
 
-You will provide some instructor information on the syllabus page. That information can be referenced anywhere on the syllabus. 
+This makes it easy to create course pages once, then only have to edit a handful of parameters the next time you teach the class. 
 
-Fields in the _config.yml file are unique in that they are global variables, so they can be referenced anywhere in the site as `{{site.varname}}`. Add any YAML fields here that you would like to reference on several pages, like the link to schedule office hours. 
+The page template might look like: 
+
+```
+LAB DETAILS
+Due date: {{ page.lab-due-date.lab2 }}
+Submission site: {{ site.canvas-url }}
+```
+
+Each page contains parameters in the header. Variables created outside of the \_config.yml file can only be referenced within the same page. They are written `{{page.varname}}`.
+
+Parameters in the config file can be referenced anywhere. They are written `{{site.varname}}`. 
 
 
 ```      
@@ -173,12 +178,15 @@ Fields in the _config.yml file are unique in that they are global variables, so 
 
 author:
     name:       Professor Who
-    github:     doctorprofessorwho   # Github username for avatar
-
-calendly:      'https://calendly.com/fakename'
+    github:     doctorprofessorwho   # Github username
 ```
 
-And finally, the pages visible on the navigation bar are set here. The "title" value is the text that will appear on the navigation bar, and the "url" can be the name of the markdown file that contains the page information, or it can be a full URL including external links. 
+*More course info and instructor details are provided on the syllabus page.*
+
+
+And finally, the navigation bar is created by selecting tabs visible on the top and bottom navigation bars. 
+
+The "title" value is the text that will appear on the navigation bar, and the "url" can either be the name of the markdown file (written schedule/ instead of schedule.md), or it can be a full URL to external sites. 
 
 ```
 ###
@@ -196,10 +204,30 @@ header:
   url: resources/
 - title: Get Help
   url: help/
-
 ```
 
+<br><hr><br>
 
+
+
+### Customized Branding 
+
+There are options to customize the site with some branding from your home university or program. 
+
+The **program-website** parameter in \_config.yml sets the link attached to the sun icon at the top-right of the course navigation bar. Use this parameter to link back to your home program or another site. 
+
+The **demo-logo.png** is a DIY logo that can be made in powerpoint. See the file [program-logo.pptx](https://github.com/DS4PS/intro-data-science-TEMPLATE/blob/main/program-logo.pptx) for an example. Create your own by changing the text and then right-click to save it as a PNG image ("save as image").
+
+Place your logo into the folder **assets/img/logo-name.png** and updated the YAML field accordingly. Currently it is set to **demo-logo.png**. 
+
+```
+###
+###  YOUR PROGRAM INFO
+###
+
+program-logo:       "logo-name.png"
+program-website:    "https://ds4ps.org/ms-prog-eval-data-analytics/courses/"
+```  
 
 <br><hr><br>
 
