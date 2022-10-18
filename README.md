@@ -1,12 +1,24 @@
 ## GitHub Course Template 
 
-This repository is designed as a demonstration for how instructors can use open source course files to share, adapt, repurpose and extended content. 
+This project repository allows instructors to share, adapt, repurpose and extended course material on an introductory data science course. 
 
-Multiple instructors have contributed lecture notes, labs, and videos to the repository. The content continues to evolve and improve over time. 
+Think about it as having access to the "source code" for a classroom. Course material in the repository includes lecture notes, labs, and videos. Multiple instructors have contributed content and it continues to evolve over time. 
 
-Anyone is free to fork the project and use material in their own classroom. 
+Even better, GitHub allows you to turn a repository into a **free course management system** using the templates included with this project: 
 
-If you have questions about using this class or configuring GitHub please open an issue on any topic you like: 
+* [Syllabus Page](https://ds4ps.org/intro-data-science-TEMPLATE/)
+* [Semester Schedule](https://ds4ps.org/intro-data-science-TEMPLATE/schedule/)
+* [Lecture Notes](https://ds4ps.org/intro-data-science-TEMPLATE/units/01-building-blocks-of-r/topic-01x02-functions.html)
+* [Lab Instructions](https://ds4ps.org/intro-data-science-TEMPLATE/units/02-operators-and-descriptives/lab-02-instructions.html)
+* [Review Session Archive](https://watts-college.github.io/cpp-527-fall-2021/review/)
+
+All of the pages are created as [markdown files](https://ds4ps.org/intro-data-science-TEMPLATE/units/00-foundations/topic-00x03-markdown.html) so that they are easy to customize and maintain. 
+
+All of the course content and the course website templates are open source and free to use. GitHub allows you to host your course site for free.  
+
+You can clone this project, update your course info, and be up and running with a new course website in 20 minutes. 
+
+If you have questions or need help getting started ask anything on the discussion board by creating a new card:  
 
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/ds4ps/intro-data-science-TEMPLATE/issues" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-comment-discussion" aria-label="Discuss ds4ps/intro-data-science-TEMPLATE on GitHub"> DISCUSS </a>
@@ -16,45 +28,27 @@ If you have questions about using this class or configuring GitHub please open a
 <br>
 
 
-### GitHub as a Course Management System
-
-GitHub has also developed powerful tools that make it easy to host your own course website for free. 
-
-Even more impressive, you can clone this project, change a few settings to customize your class, and be up and running in 20 minutes. 
-
-We have created a few basic page templates to make it easy to build a course site using basic [markdown](https://ds4ps.org/intro-data-science-TEMPLATE/markdown.html). 
-
-* [Syllabus Page](https://ds4ps.org/intro-data-science-TEMPLATE/)
-* [Semester Schedule](https://ds4ps.org/intro-data-science-TEMPLATE/schedule/)
-* [Lecture Notes](https://ds4ps.org/intro-data-science-TEMPLATE/units/01-building-blocks-of-r/topic-01x02-functions.html)
-* [Lab Instructions](https://ds4ps.org/intro-data-science-TEMPLATE/units/02-operators-and-descriptives/lab-02-instructions.html)
-* [Review Sessions](https://watts-college.github.io/cpp-527-fall-2021/review/)
-
-
 ### Setup Overview
 
 In order to create your own course website you need to complete the following steps: 
 
-1. Clone this repository using it as a template, or alternatively fork it. 
-2. Under settings activate the GitHub pages option. 
-3. Customize the course parameters in the header of each page, such as course info, instructor info, and assignment due dates. 
+1. Select the "use this template" option above to create a new project pre-populated with these course files.  
+2. Under settings in your new project repo activate the GitHub pages option. 
+3. Customize course parameters such as course info, instructor info, and assignment due dates by changing header fields on each page. 
 
-That's it! You are ready to go. Once pages are activated on GitHub the rest of the files should have rendered to HTML as the GitHub servers and will be live after just a few minutes. 
+```
+# example course parameters on the schedule page
+lab-due-dates:
+  lab-01:  'Thursday, Aug 26th' 
+  lab-02:  'Tuesday, August 31st'
+  lab-03:  'Thursday, September 9th'
+```
 
-You can now customize the course shell by editing any of the markdown files in the root folder, such as the syllabus (index.md) or schedule (schedule.md). 
+That's it! You are ready to go! 
 
-If you want to change any of the course material you need to make a copy of the files on your local machine by **cloning** the repo. You can then edit R Markdown files in the **units**, knit them to create new HTML files, then sync those files to GitHub. I would recommend using the [GitHub desktop tool](https://desktop.github.com/), which makes these steps easy. 
+Once GitHub pages are activated the course files render to HTML on the GitHub servers and will become a live website. 
 
-**Cloning  in GitHub Desktop**
-
-> File >> Clone repository 
-
-Use the URL of your GitHub repository (for example, https://github.com/DS4PS/intro-data-science-TEMPLATE) and save the project folder in your preferred local directory. 
-
-**Syncing Files**
-
-After local files have been updated you send them back to GitHub using the commit >> push commands. 
-
+You can customize the course site by editing any of the markdown files in the root folder, such as the syllabus (index.md), schedule (schedule.md), review sessions (review.md), or resources (resources.md). You can add as many new pages as you like.  
 
 <br> 
 <hr> 
@@ -363,11 +357,35 @@ And will show up like this on the page:
 <br>
 
 
-## Discussion Boards 
+## Discussion Boards ("Help")
 
 https://ds4ps.org/intro-data-science-TEMPLATE/help/
 
 
+# Customizing Course Files
+
+Most of the lectures and labs were created as [R Markdown files](https://ds4ps.org/intro-data-science-TEMPLATE/units/00-foundations/topic-00x04-data-driven-docs.html). 
+
+You can customize these files by downloading the RMD files, editing, and saving updated versions back to the project repository. 
+
+The easiest way to do this is adding the repository to your local machine by **cloning** the repo. You can then edit R Markdown files in the **units** foler, knit them to create new HTML files, then sync those files back to GitHub. 
+
+The process is very similar to something like DropBox, which allows you to have a local copy of files and a copy in the cloud. I would recommend using the [GitHub desktop tool](https://desktop.github.com/), which makes these steps easy. 
+
+**Cloning  in GitHub Desktop**
+
+> File >> Clone repository 
+
+Use the URL of your GitHub repository (for example, https://github.com/DS4PS/intro-data-science-TEMPLATE) and save the project folder in your preferred local directory. 
+
+**Syncing Files**
+
+After local files have been updated you send them back to GitHub using: 
+
+> commit ("commit to main") >> push ("push to origin") commands 
+
+
+In this way all of the course material can be adapted or extended as you wish. 
 
 
 
