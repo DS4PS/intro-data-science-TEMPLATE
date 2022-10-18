@@ -201,12 +201,19 @@ header:
 
 
 
+<br><hr><br>
+
+
 ## Customizing Course Pages 
+
+You can customize any page on the site by editing the corresponding markdown file: 
 
 * index.md (syllabus / course landing page) 
 * schedule.md  
 * review.md  
 * help.md 
+
+The following sections detail the course info that has been made into parameters in the header of each file so that it is simple to customize and update. 
 
 
 ### Syllabus Parameters
@@ -274,6 +281,9 @@ Once rendered on the syllabus page, the fields will look like this:
 
 
 ![](assets/img/syllabus.png)
+
+<br> <hr> <br>
+
 
 
 ### Schedule Parameters
@@ -346,9 +356,7 @@ And will show up like this on the page:
 <img src="assets/img/yaml-example.png" width="300">
  
 
-<br> 
-<hr>
-<br>
+<br> <hr> <br>
 
 
 ### Review Session Parameters 
