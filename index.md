@@ -32,7 +32,7 @@ instructor:
    linked_in_url:
    office_hours_time: See Schedule
    office_hours_app_url: 'https://calendly.com'
-   office_hours_location: Zoom
+   office_hours_location: 'Zoom' 
 -  name: Other Name
    title: Teaching Assistant
    email: EMAIL@asu.edu
@@ -44,7 +44,7 @@ instructor:
    linked_in_url:
    office_hours_time: 'Wednesday 3-5pm'
    office_hours_app_url: 'https://calendly.com'
-   office_hours_location: Zoom Link Here
+   office_hours_location: Zoom
 
 textbooks:
 - title: R Cookbook, 2nd Edition
@@ -295,7 +295,7 @@ As students are all aware, ASU Online courses are typically offered on a seven a
 
 **Note:** The course instructor may from time to time adjust assigned readings or adjust the due dates for assignment. The basic course content approach and learning objectives will not change, but slight modifications are possible if circumstances warrant an adjustment.
 
-Visit the [**Course Schedule**](/schedule/).
+Visit the [**Course Schedule**](./schedule.html).
 
 <br>
 <br>
