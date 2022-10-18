@@ -52,6 +52,20 @@ You can customize the course site pages by editing any of the markdown files in 
 
 All of the course content is stored as R Markdown files in the **units** folder. They are also fully customizable. 
 
+More details are provided below: 
+
+* [**Create Your Course**](https://github.com/DS4PS/intro-data-science-TEMPLATE#create-your-course)
+  - [Activating GitHub Pages]() 
+  - [Website Settings]() 
+  - [Creating Custom Fields]() 
+* [**Customizing Course Pages**](https://github.com/DS4PS/intro-data-science-TEMPLATE#customizing-course-pages)
+  - [Syllabus](https://github.com/DS4PS/intro-data-science-TEMPLATE#syllabus) 
+  - [Schedule](https://github.com/DS4PS/intro-data-science-TEMPLATE#schedule) 
+  - [Review Sessions](https://github.com/DS4PS/intro-data-science-TEMPLATE#review-sessions) 
+  - [Discussion Boards](https://github.com/DS4PS/intro-data-science-TEMPLATE#discussion-boards)  
+* [**Customizing Course Material**](https://github.com/DS4PS/intro-data-science-TEMPLATE#customizing-course-material)
+
+
 <br> 
 <hr> 
 <br>
@@ -266,7 +280,7 @@ You can customize any page on the site by editing the corresponding markdown fil
 The following sections detail the course info that has been made into parameters in the header of each file so that it is simple to customize and update. 
 
 
-### Syllabus Parameters
+### Syllabus 
 
 ```
 ---
@@ -336,7 +350,7 @@ Once rendered on the syllabus page, the fields will look like this:
 
 
 
-### Schedule Parameters
+### Schedule 
 
 ```
 ---
@@ -409,7 +423,7 @@ And will show up like this on the page:
 <br> <hr> <br>
 
 
-### Review Session Parameters 
+### Review Sessions 
 
 
 <br>
@@ -417,7 +431,7 @@ And will show up like this on the page:
 <br>
 
 
-## Discussion Boards ("Help")
+## Discussion Boards 
 
 https://ds4ps.org/intro-data-science-TEMPLATE/help/
 
