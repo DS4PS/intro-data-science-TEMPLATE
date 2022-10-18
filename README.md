@@ -55,16 +55,17 @@ All of the course content is stored as R Markdown files in the **units** folder.
 More details are provided below: 
 
 * [**Create Your Course**](https://github.com/DS4PS/intro-data-science-TEMPLATE#create-your-course)
-  - [Activating GitHub Pages]() 
-  - [Website Settings]() 
-  - [Creating Custom Fields]() 
+  - [Activating GitHub Pages](https://github.com/DS4PS/intro-data-science-TEMPLATE#activating-github-pages) 
+  - [Website Settings](https://github.com/DS4PS/intro-data-science-TEMPLATE#website-settings) 
+  - [Customized Branding](https://github.com/DS4PS/intro-data-science-TEMPLATE#customized-branding)
 * [**Customizing Course Pages**](https://github.com/DS4PS/intro-data-science-TEMPLATE#customizing-course-pages)
+  - [Creating Custom Fields](https://github.com/DS4PS/intro-data-science-TEMPLATE#creating-custom-fields)
   - [Syllabus](https://github.com/DS4PS/intro-data-science-TEMPLATE#syllabus) 
   - [Schedule](https://github.com/DS4PS/intro-data-science-TEMPLATE#schedule) 
   - [Review Sessions](https://github.com/DS4PS/intro-data-science-TEMPLATE#review-sessions) 
   - [Discussion Boards](https://github.com/DS4PS/intro-data-science-TEMPLATE#discussion-boards)  
 * [**Customizing Course Material**](https://github.com/DS4PS/intro-data-science-TEMPLATE#customizing-course-material)
-
+  - [Course Facilitation Guide]()  
 
 <br> 
 <hr> 
