@@ -117,9 +117,9 @@ Once pages are activated then all markdown files will be rendered to HTML on the
 
 ### Website Settings
 
-**Global Parameters in _config.yml**
+**Global Parameters in config.yml**
 
-The configuration file (\_config.yml) contains website settings that you must edit for your course site to work properly. 
+The configuration file (config.yml) contains website settings that you must edit for your course site to work properly. 
 
 These include the name of your course, urls directed to your GitHub repository, and information about you and the course.
 
