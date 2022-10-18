@@ -108,7 +108,7 @@ Settings >> Pages  >> Main Branch >> Root Folder >> "save"
 
 Once pages are activated then all markdown files will be rendered to HTML on the GitHub servers and all HTML files in your repository will now be visible as website pages instead of raw HTML code. 
 
-*The URL for your project will appear at the top of this page after activation. You might need to wait a minute and refresh before it appears."*
+*The URL for your project will appear at the top of this page after activation. You might need to wait a minute and refresh before it appears.*
 
 <br> 
 <hr> 
