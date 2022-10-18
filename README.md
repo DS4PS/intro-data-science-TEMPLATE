@@ -14,9 +14,9 @@ Even better, GitHub allows you to turn a repository into a **free course managem
 
 All of the pages are created as [markdown files](https://ds4ps.org/intro-data-science-TEMPLATE/units/00-foundations/topic-00x03-markdown.html) so that they are easy to customize and maintain. 
 
-All of the course content and the course website templates are open source and free to use. GitHub allows you to host your course site for free.  
+The course website templates and all of the course content are open source and free to use.  
 
-You can clone this project, update your course info, and be up and running with a new course website in 20 minutes. 
+You can clone this project, update your course info, and be up and running with a new course website in 20 minutes. GitHub allows you to host your course site for free.  
 
 If you have questions or need help getting started ask anything on the discussion board by creating a new card:  
 
