@@ -153,10 +153,10 @@ Fields in the \_config.yml file are unique in that they are global variables, so
 You can add your own fields, for example a link to an office hours scheduling app. 
 
 ```
-calendly: 'https://calendly.com/fakename'
+calendly: 'https://calendly.com/username'
 ```
 
-You can then add the text `{{site.calendly}}` to any site pages and it will show up as the value `https://calendly.com/fakename`. 
+You can then add the text `{{site.calendly}}` to any site pages and it will show up as the value `https://calendly.com/username`. 
 
 This makes it easy to create course pages once, then only have to edit a handful of parameters the next time you teach the class. 
 
