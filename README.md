@@ -407,6 +407,8 @@ And will show up like this on the page:
 
 https://ds4ps.org/intro-data-science-TEMPLATE/help/
 
+<br><hr><br>
+
 
 # Customizing Course Files
 
@@ -426,9 +428,9 @@ Use the URL of your GitHub repository (for example, https://github.com/DS4PS/int
 
 **Syncing Files**
 
-After local files have been updated you send them back to GitHub using: 
+After local files have been updated you send the updates to GitHub using: 
 
-> commit ("commit to main") >> push ("push to origin") commands 
+> commit ("commit to main") >> push ("push to origin") blue buttons 
 
 
 In this way all of the course material can be adapted or extended as you wish. 
