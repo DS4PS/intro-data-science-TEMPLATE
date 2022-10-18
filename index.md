@@ -33,7 +33,18 @@ instructor:
    office_hours_time: See Schedule
    office_hours_app_url: 'https://calendly.com'
    office_hours_location: Zoom
-
+-  name: Other Name
+   title: Teaching Assistant
+   email: EMAIL@asu.edu
+   office_location:
+   website_url: 'www.google.com'
+   github_url:  
+   twitter_url:
+   scholar_url: 
+   linked_in_url:
+   office_hours_time: 'Wednesday 3-5pm'
+   office_hours_app_url: 'https://calendly.com'
+   office_hours_location: Zoom Link Here
 
 textbooks:
 - title: R Cookbook, 2nd Edition
