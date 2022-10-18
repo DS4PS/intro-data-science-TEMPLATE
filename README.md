@@ -148,30 +148,7 @@ brand:
     text:           "Intro to Data Science"   
 ```
 
-Fields in the \_config.yml file are unique in that they are global variables, so they can be referenced anywhere in the site.
-
-You can add your own fields, for example a link to an office hours scheduling app. 
-
-```
-calendly: 'https://calendly.com/username'
-```
-
-You can then add the text `{{site.calendly}}` to any site pages and it will show up as the value `https://calendly.com/username`. 
-
-This makes it easy to create course pages once, then only have to edit a handful of parameters the next time you teach the class. 
-
-The page template might look like: 
-
-```
-LAB DETAILS
-Due date: {{ page.lab-due-date.lab2 }}
-Submission site: {{ site.canvas-url }}
-```
-
-Each page contains parameters in the header. Variables created outside of the \_config.yml file can only be referenced within the same page. They are written `{{page.varname}}`.
-
-Parameters in the config file can be referenced anywhere. They are written `{{site.varname}}`. 
-
+Instructor details: 
 
 ```      
 ###
@@ -211,6 +188,35 @@ header:
 <br><hr><br>
 
 
+### Customizing Fields in Headers
+
+Fields in the \_config.yml file are unique in that they are global variables, so they can be referenced anywhere in the site.
+
+You can add your own fields, for example a link to an office hours scheduling app. 
+
+```
+calendly: 'https://calendly.com/username'
+```
+
+You can then add the text `{{site.calendly}}` to any site pages and it will show up as the value `https://calendly.com/username`. 
+
+This makes it easy to create course pages once, then only have to edit a handful of parameters the next time you teach the class. 
+
+The page template might look like: 
+
+```
+LAB DETAILS
+Due date: {{ page.lab-due-date.lab2 }}
+Submission site: {{ site.canvas-url }}
+```
+
+Each page contains parameters in the header. Variables created outside of the \_config.yml file can only be referenced within the same page. They are written `{{page.varname}}`.
+
+Parameters in the config file can be referenced anywhere. They are written `{{site.varname}}`. 
+
+These are called YAML fields, and they are in the config.yml file and headers of the course page files like schedule.md, review.md, and index.md (syllabus). 
+
+<br><hr><br>
 
 ### Customized Branding 
 
