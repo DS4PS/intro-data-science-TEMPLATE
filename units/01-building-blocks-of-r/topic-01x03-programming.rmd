@@ -1,19 +1,17 @@
 ---
 title: "Introductory Programming"
-author: "Data Science for Public Service"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
   html_document:
-    df_print: paged
-    theme: flatly
-    highlight: haddock
-    toc: yes
-    toc_float: yes
+    theme: readable
+    highlight: tango
+    toc: true
+    toc_depth: 2
+    css: "../html/lecture-notes.css"
 ---
 
 ```{r include = FALSE}
 
-setwd("~/DS4PS/New Textbook Sections")
+# setwd("~/DS4PS/New Textbook Sections")
 
 knitr::opts_chunk$set(echo = TRUE)
 
