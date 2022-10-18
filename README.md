@@ -6,6 +6,18 @@ Multiple instructors have contributed lecture notes, labs, and videos to the rep
 
 Anyone is free to fork the project and use material in their own classroom. 
 
+If you have questions about using this class or configuring GitHub please open an issue on any topic you like: 
+
+----
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ds4ps/intro-data-science-TEMPLATE/discussions" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-comment-discussion" aria-label="Discuss ds4ps/intro-data-science-TEMPLATE on GitHub">Discuss</a>
+
+----
+
+<br>
+
+
 ### GitHub as a Course Management System
 
 GitHub has also developed powerful tools that make it easy to host your own course website for free. 
