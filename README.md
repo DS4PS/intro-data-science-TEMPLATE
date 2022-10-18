@@ -424,7 +424,7 @@ https://ds4ps.org/intro-data-science-TEMPLATE/help/
 <br><hr><br>
 
 
-# Customizing Course Files
+# Customizing Course Material
 
 Most of the lectures and labs were created as [R Markdown files](https://ds4ps.org/intro-data-science-TEMPLATE/units/00-foundations/topic-00x04-data-driven-docs.html). 
 
