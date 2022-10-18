@@ -28,7 +28,7 @@ If you have questions or need help getting started ask anything on the discussio
 <br>
 
 
-### Big Picture Overview
+### Quick Start Overview
 
 In order to create your own course website you need to complete the following steps: 
 
@@ -59,7 +59,7 @@ All of the course content is stored as R Markdown files in the **units** folder.
 
 
 
-## Create a New Course 
+## Create Your Course 
 
 This tutorial will walk you through the steps of creating your own course using this project as a template. 
 
