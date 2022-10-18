@@ -97,7 +97,7 @@ You can always view files in a public GitHub repository, but you will want to ac
 
 After you have created a repository for the course on your personal account, navigate to your new project page on GitHub and select:
 
-Settings >> Pages  >> Main Branch >> Root Folder
+Settings >> Pages  >> Main Branch >> Root Folder >> "save"
 
 <br> 
 
