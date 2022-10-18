@@ -358,3 +358,10 @@ And will show up like this on the page:
 ## Discussion Boards 
 
 https://ds4ps.org/intro-data-science-TEMPLATE/help/
+
+
+
+
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
