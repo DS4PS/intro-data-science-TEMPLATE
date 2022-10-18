@@ -28,11 +28,11 @@ If you have questions or need help getting started ask anything on the discussio
 <br>
 
 
-### Setup Overview
+### Big Picture Overview
 
 In order to create your own course website you need to complete the following steps: 
 
-1. Select the "use this template" option above to create a new project pre-populated with these course files.  
+1. Select the "use this template" option above to create a new project pre-populated with these course files (see below for details).  
 2. Under settings in your new project repo activate the GitHub pages option. 
 3. Customize course parameters such as course info, instructor info, and assignment due dates by changing header fields on each page. 
 
@@ -46,9 +46,11 @@ lab-due-dates:
 
 That's it! You are ready to go! 
 
-Once GitHub pages are activated the course files render to HTML on the GitHub servers and will become a live website. 
+Once GitHub pages are activated the course will become a live website. 
 
-You can customize the course site by editing any of the markdown files in the root folder, such as the syllabus (index.md), schedule (schedule.md), review sessions (review.md), or resources (resources.md). You can add as many new pages as you like.  
+You can customize the course site pages by editing any of the markdown files in the root folder, such as the syllabus (index.md), schedule (schedule.md), review sessions (review.md), or resources (resources.md). You can add as many new pages as you like.  
+
+All of the course content is stored as R Markdown files in the **units** folder. They are also fully customizable. 
 
 <br> 
 <hr> 
@@ -57,9 +59,9 @@ You can customize the course site by editing any of the markdown files in the ro
 
 
 
-## Using GitHub Templates 
+## Create a New Course 
 
-This tutorial will walk you through the steps of creating your own course using these files as a template. 
+This tutorial will walk you through the steps of creating your own course using this project as a template. 
 
 On the top right of this repository select the ”Use this template” (green button). 
 
