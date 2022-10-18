@@ -188,7 +188,7 @@ header:
 <br><hr><br>
 
 
-### Customizing Fields in Headers
+### Creating Custom Fields
 
 Fields in the \_config.yml file are unique in that they are global variables, so they can be referenced anywhere in the site.
 
@@ -199,6 +199,8 @@ calendly: 'https://calendly.com/username'
 ```
 
 You can then add the text `{{site.calendly}}` to any site pages and it will show up as the value `https://calendly.com/username`. 
+
+You can name your new field anything. 
 
 This makes it easy to create course pages once, then only have to edit a handful of parameters the next time you teach the class. 
 
@@ -214,7 +216,7 @@ Each page contains parameters in the header. Variables created outside of the \_
 
 Parameters in the config file can be referenced anywhere. They are written `{{site.varname}}`. 
 
-These are called YAML fields, and they are in the config.yml file and headers of the course page files like schedule.md, review.md, and index.md (syllabus). 
+These are called [YAML fields](https://learn.getgrav.org/16/advanced/yaml), and they are in the config.yml file and headers of the course page files like schedule.md, review.md, and index.md (syllabus). 
 
 <br><hr><br>
 
