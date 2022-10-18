@@ -8,10 +8,8 @@ Anyone is free to fork the project and use material in their own classroom.
 
 If you have questions about using this class or configuring GitHub please open an issue on any topic you like: 
 
-----
-
 <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ds4ps/intro-data-science-TEMPLATE/issues" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-comment-discussion" aria-label="Discuss ds4ps/intro-data-science-TEMPLATE on GitHub">Discuss</a>
+<a class="github-button" href="https://github.com/ds4ps/intro-data-science-TEMPLATE/issues" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-comment-discussion" aria-label="Discuss ds4ps/intro-data-science-TEMPLATE on GitHub"> DISCUSS </a>
 
 ----
 
@@ -69,11 +67,15 @@ After local files have been updated you send them back to GitHub using the commi
 
 This tutorial will walk you through the steps of creating your own course using these files as a template. 
 
-You will start by navigating to your personal GitHub account and select the option to create a new repository. When you do so you will get the following dialogue: 
+On the top right of this repository select the ”Use this template” (green button). 
+
+<img src="assets/img/template-button.png" width="450">
 
 <br>
 
+You should see the following dialogue:
 
+<br>
     
 <img src="assets/img/clone-w-template.png" width="450">
     
@@ -81,10 +83,12 @@ You will start by navigating to your personal GitHub account and select the opti
 Select: 
 
 * DS4PS/intro-data-science-TEMPLATE 
-* public repository 
+* Add a repository name. It’s a good idea to use a name that is similar to your course name and semester offered.
+* Public repository 
 * There is only one branch, so no need to include all branches. 
 
-If you are unable to access the template you can always fork or clone the project repository as well. The main advantage of using a template is that it copies all of the files to for you quickly, but you can accomplish the same thing by cloning the repository instead. 
+The main advantage of using a template is that it copies all of the files to a new project repo on your personal GitHub account. [It is recommended over forking the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). 
+
 
 <br> 
 <hr> 
@@ -93,9 +97,9 @@ If you are unable to access the template you can always fork or clone the projec
 
 ### Activating GitHub Pages
 
-You can always view files in a public GitHub repository, but if you want to host HTML files as a live site you first need to activate GitHub pages. 
+You can always view files in a public GitHub repository, but you will want to activate them as a live site for students to access the course.
 
-After you have cloned the course repo onto your personal account navigate to your new project page on GitHub and select:
+After you have created a repository for the course on your personal account, navigate to your new project page on GitHub and select:
 
 Settings >> Pages  >> Main Branch >> Root Folder
 
@@ -115,7 +119,11 @@ Once pages are activated then all markdown files will be rendered to HTML on the
 
 ### Setting Global Parameters in _config.yml
 
-The **configuration file** (_config.yml) contains a few settings for the full website. 
+The configuration file (_config.yml) contains a few settings for the full website that you must edit for your course. 
+
+These include the name of your course, urls directed to your GitHub repository, and information about you and the course.
+
+In the root folder of your new repository click on the **_config.yml** file to edit it. You will see the following code:
 
 
 ```
