@@ -204,19 +204,31 @@ You can name your new field anything.
 
 This makes it easy to create course pages once, then only have to edit a handful of parameters the next time you teach the class. 
 
-The page template might look like: 
+The page template might have a section like this: 
 
 ```
 LAB DETAILS
-Due date: {{ page.lab-due-date.lab2 }}
-Submission site: {{ site.canvas-url }}
+Due date: {{ page.lab-due-date.lab-02 }}
+Submission site: {{ page.canvas-url }}
 ```
 
-Each page contains parameters in the header. Variables created outside of the \_config.yml file can only be referenced within the same page. They are written `{{page.varname}}`.
+And the values defined in the header as:
+
+```
+canvas-url: 'https://canvas.asu.edu/courses/99223/assignments'
+ 
+labs-due-date:
+  lab-01:  'Thursday, Aug 26th' 
+  lab-02:  'Tuesday, August 31st'
+```
+
+This convention makes it easy to separate **static course content** (boiler plate text in the syllabus, a reading list) from **dynamic content** that changes each semester, such as due dates, office hours, classroom location, etc. Each page contains parameters in the header to make them easy to update each term. 
+
+Collectively these are called [YAML fields](https://learn.getgrav.org/16/advanced/yaml), and they are in the config.yml file and headers of the course page files like schedule.md, review.md, and index.md (syllabus). 
+
+Fields in a page header can only be referenced within the same page. They are written `{{page.varname}}`.
 
 Parameters in the config file can be referenced anywhere. They are written `{{site.varname}}`. 
-
-These are called [YAML fields](https://learn.getgrav.org/16/advanced/yaml), and they are in the config.yml file and headers of the course page files like schedule.md, review.md, and index.md (syllabus). 
 
 <br><hr><br>
 
