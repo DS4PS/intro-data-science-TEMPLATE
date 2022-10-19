@@ -48,11 +48,11 @@ That's it! You are ready to go!
 
 Once GitHub pages are activated the course will become a live website. 
 
-You can customize the course site pages by editing any of the markdown files in the root folder, such as the syllabus (index.md), schedule (schedule.md), review sessions (review.md), or resources (resources.md). You can add as many new pages as you like.  
+You can customize the course site pages by editing any of the markdown files in the root folder, such as the syllabus (*index.md*), schedule (*schedule.md*), review sessions (*review.md*), or resources (*resources.md*). You can add as many new pages as you like.  
 
-All of the course content is stored as R Markdown files in the **units** folder. They are also fully customizable. 
+All of the course content is stored as R Markdown files in the [**units folder**](https://github.com/DS4PS/intro-data-science-TEMPLATE/tree/main/units). They are also fully customizable. 
 
-More details are provided below: 
+Explore more details below: 
 
 * [**Create Your Course**](https://github.com/DS4PS/intro-data-science-TEMPLATE#create-your-course)
   - [Activating GitHub Pages](https://github.com/DS4PS/intro-data-science-TEMPLATE#activating-github-pages) 
