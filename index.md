@@ -18,7 +18,7 @@ info:
  course_prerequisites:  
  class_meets_when:  Asynchronous  
  class_meets_where:  Online
- discussion_board_url: '/help/'
+ discussion_board_url: 'help/'
 
 instructor:
 -  name: YOUR NAME
