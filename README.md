@@ -453,11 +453,17 @@ https://ds4ps.org/intro-data-science-TEMPLATE/help/
 
 # Customizing Course Material
 
-Most of the lectures and labs were created as [R Markdown files](https://ds4ps.org/intro-data-science-TEMPLATE/units/00-foundations/topic-00x04-data-driven-docs.html). 
+Most of the lectures and labs were created as [data-driven documents](https://ds4ps.org/intro-data-science-TEMPLATE/units/00-foundations/topic-00x04-data-driven-docs.html) using R Markdown. 
 
-You can customize these files by downloading the RMD files, editing, and saving updated versions back to the project repository. 
+[R Markdown is a powerful communication tool](https://ds4ps.org/intro-data-science-TEMPLATE/units/00-foundations/topic-00x05-rmarkdown-tutorial.html), and a marketable skill for students.
 
-The easiest way to do this is adding the repository to your local machine by **cloning** the repo. You can then edit R Markdown files in the **units** foler, knit them to create new HTML files, then sync those files back to GitHub. 
+**Updating Content**
+
+You can customize course files by downloading the RMD files, editing, and saving updated versions back to the project repository. 
+
+The easiest way to do this is adding the repository to your local machine by **cloning** the repo. 
+
+You can then edit R Markdown files in the **units** folder, knit them to create new HTML files, then sync those files back to GitHub. 
 
 The process is very similar to something like DropBox, which allows you to have a local copy of files and a copy in the cloud. I would recommend using the [GitHub desktop tool](https://desktop.github.com/), which makes these steps easy. 
 
