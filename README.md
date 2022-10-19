@@ -8,7 +8,7 @@ Even better, GitHub allows you to turn a repository into a **free course managem
 
 * [Syllabus Page](https://ds4ps.org/intro-data-science-TEMPLATE/)
 * [Semester Schedule](https://ds4ps.org/intro-data-science-TEMPLATE/schedule/)
-* [Lecture Note Example](https://ds4ps.org/intro-data-science-TEMPLATE/units/01-building-blocks-of-r/topic-01x02-functions.html)
+* [Lecture Note Example](https://ds4ps.org/intro-data-science-TEMPLATE/units/03-data-viz-static/topic-03x02-plotting-basics.html)
 * [Lab Instructions Example](https://ds4ps.org/intro-data-science-TEMPLATE/units/02-operators-and-descriptives/lab-02-instructions.html)
 * [Review Session Archive](https://watts-college.github.io/cpp-527-fall-2021/review/)
 
