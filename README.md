@@ -21,7 +21,7 @@ You can clone this project, update your course info, and be up and running with 
 If you have questions or need help getting started ask anything on the discussion board by creating a new card:  
 
 <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ds4ps/intro-data-science-TEMPLATE/issues" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-comment-discussion" aria-label="Discuss ds4ps/intro-data-science-TEMPLATE on GitHub"> DISCUSS </a>
+<a class="github-button" href="https://github.com/ds4ps/intro-data-science-TEMPLATE/issues" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-comment-discussion" aria-label="Discuss ds4ps/intro-data-science-TEMPLATE on GitHub"> ASK A QUESION </a>
 
 ----
 
