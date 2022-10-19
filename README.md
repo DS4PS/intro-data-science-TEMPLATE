@@ -295,29 +295,41 @@ index:
 
 info:
  program_title: Program Evaluation and Data Analytics
- program_website: https://asuonline.asu.edu/online-degree-programs/graduate/program-evaluation-and-data-analytics-ms/
+ program_website: 'https://ds4ps.org/ms-prog-eval-data-analytics/courses/'
  course_title: Foundations of Data Science Part I
  course_number: CPP 526
  course_level: Graduate
- course_website: 'https://canvas.asu.edu/courses/92494'
+ course_website: 'https://canvas.asu.edu/courses/xxxxx'
  course_start_end_dates: August 19 - October 8, 2021
  course_prerequisites:  
  class_meets_when:  Asynchronous  
  class_meets_where:  Online
- discussion_board_url: 'https://watts-college.github.io/cpp-526-fall-2021/help/'
+ discussion_board_url: 'https://ds4ps.org/intro-data-science-TEMPLATE/help/'
 
 instructor:
 -  name: YOUR NAME
    title: Instructor
    email: EMAIL@asu.edu
    office_location:
-   website_url:
+   website_url: 'www.google.com'
+   github_url:  'https://github.com/'
+   twitter_url:
+   scholar_url: 'https://scholar.google.com/citations?user=YA43PbsAAAAJ&hl=en&oi=ao'
+   linked_in_url:
+   office_hours_time: See scheduling app
+   office_hours_app_url: 'https://calendly.com'
+   office_hours_location: 'Zoom' 
+-  name: NAME OF TA
+   title: Teaching Assistant
+   email: EMAIL@asu.edu
+   office_location:
+   website_url: 'www.google.com'
    github_url:  
    twitter_url:
-   scholar_url:
+   scholar_url: 
    linked_in_url:
-   office_hours_time: See Schedule
-   office_hours_app_url: 'https://calendly.com/jacobtnyoung/cpp-526-student-meeting'
+   office_hours_time: 'Wednesday 3-5pm'
+   office_hours_app_url: 'https://calendly.com'
    office_hours_location: Zoom
 
 
