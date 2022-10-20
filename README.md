@@ -57,7 +57,7 @@ Explore more details below:
 * [**Create Your Course**](https://github.com/DS4PS/intro-data-science-TEMPLATE#create-your-course)
   - [Activating GitHub Pages](https://github.com/DS4PS/intro-data-science-TEMPLATE#activating-github-pages) 
   - [Website Settings](https://github.com/DS4PS/intro-data-science-TEMPLATE#website-settings) 
-  - [Customized Branding](https://github.com/DS4PS/intro-data-science-TEMPLATE#customized-branding)
+  - [Branding](https://github.com/DS4PS/intro-data-science-TEMPLATE#customized-branding)
 * [**Customizing Course Pages**](https://github.com/DS4PS/intro-data-science-TEMPLATE#customizing-course-pages)
   - [Creating Custom Fields](https://github.com/DS4PS/intro-data-science-TEMPLATE#creating-custom-fields)
   - [Syllabus](https://github.com/DS4PS/intro-data-science-TEMPLATE#syllabus) 
@@ -247,7 +247,7 @@ Parameters in the config file can be referenced anywhere. They are written `{{si
 
 <br><hr><br>
 
-### Customized Branding 
+### Branding 
 
 There are options to customize the site with some branding from your home university or program. 
 
@@ -450,6 +450,25 @@ https://ds4ps.org/intro-data-science-TEMPLATE/help/
 
 <br><hr><br>
 
+
+## Page Templates 
+
+Advanced users with a bit of web development experience (HTML/CSS) can modify page templates by adapting the HTML layouts that correspond with each page: 
+
+[HTML LAYOUTS](https://github.com/DS4PS/intro-data-science-TEMPLATE/tree/main/_layouts)
+
+* syllabus / index.md: [index.html](https://github.com/DS4PS/intro-data-science-TEMPLATE/blob/main/_layouts/index.html) 
+* schedule.md: [schedule.html](https://github.com/DS4PS/intro-data-science-TEMPLATE/blob/main/_layouts/schedule.html)
+* review.md: [review.html](https://github.com/DS4PS/intro-data-science-TEMPLATE/blob/main/_layouts/review.html)
+* help.md: [discussions.html](https://github.com/DS4PS/intro-data-science-TEMPLATE/blob/main/_layouts/discussions.html)
+
+These templates use HTML page design combined with **jykell* and **liquid tags** conventions used by GitHub pages. For a simple example of how jykyll + liquid tags work see:
+
+[Barebones Jekyll Site](http://ds4ps.org/barebones-jekyll/index)
+
+Other discrete HTML components like headers, footers, and features like discuss options are in the includes folder: 
+
+[HTML INCLUDES FOLDER](https://github.com/DS4PS/intro-data-science-TEMPLATE/tree/main/_includes)
 
 # Customizing Course Material
 
