@@ -57,7 +57,7 @@ Explore more details below:
 * [**Create Your Course**](https://github.com/DS4PS/intro-data-science-TEMPLATE#create-your-course)
   - [Activating GitHub Pages](https://github.com/DS4PS/intro-data-science-TEMPLATE#activating-github-pages) 
   - [Website Settings](https://github.com/DS4PS/intro-data-science-TEMPLATE#website-settings) 
-  - [Branding](https://github.com/DS4PS/intro-data-science-TEMPLATE#customized-branding)
+  - [Branding](https://github.com/DS4PS/intro-data-science-TEMPLATE#branding)
 * [**Customizing Course Pages**](https://github.com/DS4PS/intro-data-science-TEMPLATE#customizing-course-pages)
   - [Creating Custom Fields](https://github.com/DS4PS/intro-data-science-TEMPLATE#creating-custom-fields)
   - [Syllabus](https://github.com/DS4PS/intro-data-science-TEMPLATE#syllabus) 
