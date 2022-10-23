@@ -1,11 +1,14 @@
 ---
+title: "ggplot2"
 output:
   html_document:
     theme: readable
     highlight: tango
-    self_contained: false
-    css: textbook.css
+    toc: true
+    toc_depth: 2
+    css: "../html/lecture-notes.css"
 ---
+
 
 # The Grammar of Graphics
 

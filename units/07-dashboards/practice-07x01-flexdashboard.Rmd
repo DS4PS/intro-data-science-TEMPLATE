@@ -11,7 +11,8 @@ library(tidyverse)
 url <- paste0("https://raw.githubusercontent.com/cssearcy/AYS-R-Co",
               "ding-SPR-2020/master/LABS/gapminder_group_data.csv")
 
-regions <- read_csv(file = url) %>%         # Import country region data
+regions <-                  # Import country region data
+  read_csv(file = url) %>%         
   select(Country = name,
          Region = eight_regions) %>% 
   mutate(Region = str_replace_all(string = Region, 
@@ -22,7 +23,8 @@ regions <- read_csv(file = url) %>%         # Import country region data
 url <- paste0("https://raw.githubusercontent.com/cssearcy/AYS-R-Co",
               "ding-SPR-2020/master/LABS/gapminder_life_exp.csv")
 
-life_exp <- read_csv(file = url) %>%        # Import, merge life expectancy data
+life_exp <-                 # Import, merge life expectancy data
+  read_csv(file = url) %>%        
   pivot_longer(cols = -country) %>% 
   rename("Country" = country, 
          "Year" = name, 
@@ -32,12 +34,14 @@ life_exp <- read_csv(file = url) %>%        # Import, merge life expectancy data
   select(Region, Country, Year, Lifespan) %>% 
   arrange(Region, Country, Year, Lifespan)
 
-region_avgs <- life_exp %>% 
+region_avgs <- 
+  life_exp %>% 
   group_by(Year, Region) %>% 
   summarize(Average = mean(Lifespan, 
                            na.rm = TRUE))
 
-year_avg <- life_exp %>% 
+year_avg <- 
+  life_exp %>% 
   group_by(Year) %>% 
   summarize(Average = mean(Lifespan, 
                            na.rm = TRUE))
