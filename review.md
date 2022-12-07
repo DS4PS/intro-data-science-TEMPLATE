@@ -90,7 +90,7 @@ For those that cannot attend recordings of each session will be posted below.
 
 Feel free to schedule virtual office hours as well.   
 
-* Jesse Lecy: [AVAILABILITY](https://calendly.com/lecy/)
+
 
 
 <br> 
