@@ -20,93 +20,17 @@ If you would like to create a content map of all course files contained within t
 
 ```
 units
-+-- 00-cheatsheets
-|   +-- base-r-cheatsheet.pdf
-|   +-- data-wrangling-cheatsheet.pdf
-|   +-- dplyr-cheatsheet.pdf
-|   +-- latex-formula-syntax.pdf
-|   +-- r-markdown-files.html
-|   +-- r-markdown-files.rmd
-|   +-- r-markdown-files_files
-|   |   +-- bootstrap-3.3.5
-|   |   |   +-- css
-|   |   |   |   +-- bootstrap-theme.css
-|   |   |   |   +-- bootstrap-theme.css.map
-|   |   |   |   +-- bootstrap-theme.min.css
-|   |   |   |   +-- bootstrap.css
-|   |   |   |   +-- bootstrap.css.map
-|   |   |   |   +-- bootstrap.min.css
-|   |   |   |   +-- cerulean.min.css
-|   |   |   |   +-- cosmo.min.css
-|   |   |   |   +-- darkly.min.css
-|   |   |   |   +-- flatly.min.css
-|   |   |   |   +-- fonts
-|   |   |   |   |   +-- Lato.ttf
-|   |   |   |   |   +-- LatoBold.ttf
-|   |   |   |   |   +-- LatoItalic.ttf
-|   |   |   |   |   +-- NewsCycle.ttf
-|   |   |   |   |   +-- NewsCycleBold.ttf
-|   |   |   |   |   +-- OpenSans.ttf
-|   |   |   |   |   +-- OpenSansBold.ttf
-|   |   |   |   |   +-- OpenSansBoldItalic.ttf
-|   |   |   |   |   +-- OpenSansItalic.ttf
-|   |   |   |   |   +-- OpenSansLight.ttf
-|   |   |   |   |   +-- OpenSansLightItalic.ttf
-|   |   |   |   |   +-- Raleway.ttf
-|   |   |   |   |   +-- RalewayBold.ttf
-|   |   |   |   |   +-- Roboto.ttf
-|   |   |   |   |   +-- RobotoBold.ttf
-|   |   |   |   |   +-- RobotoLight.ttf
-|   |   |   |   |   +-- RobotoMedium.ttf
-|   |   |   |   |   +-- SourceSansPro.ttf
-|   |   |   |   |   +-- SourceSansProBold.ttf
-|   |   |   |   |   +-- SourceSansProItalic.ttf
-|   |   |   |   |   +-- SourceSansProLight.ttf
-|   |   |   |   |   \-- Ubuntu.ttf
-|   |   |   |   +-- journal.min.css
-|   |   |   |   +-- lumen.min.css
-|   |   |   |   +-- paper.min.css
-|   |   |   |   +-- readable.min.css
-|   |   |   |   +-- sandstone.min.css
-|   |   |   |   +-- simplex.min.css
-|   |   |   |   +-- spacelab.min.css
-|   |   |   |   +-- united.min.css
-|   |   |   |   \-- yeti.min.css
-|   |   |   +-- fonts
-|   |   |   |   +-- glyphicons-halflings-regular.eot
-|   |   |   |   +-- glyphicons-halflings-regular.svg
-|   |   |   |   +-- glyphicons-halflings-regular.ttf
-|   |   |   |   +-- glyphicons-halflings-regular.woff
-|   |   |   |   \-- glyphicons-halflings-regular.woff2
-|   |   |   +-- js
-|   |   |   |   +-- bootstrap.js
-|   |   |   |   +-- bootstrap.min.js
-|   |   |   |   \-- npm.js
-|   |   |   \-- shim
-|   |   |       +-- html5shiv.min.js
-|   |   |       \-- respond.min.js
-|   |   +-- figure-html
-|   |   |   +-- unnamed-chunk-1-1.png
-|   |   |   \-- unnamed-chunk-2-1.png
-|   |   +-- header-attrs-2.14
-|   |   |   \-- header-attrs.js
-|   |   +-- jquery-1.11.3
-|   |   |   \-- jquery.min.js
-|   |   +-- jquery-3.6.0
-|   |   |   +-- jquery-3.6.0.js
-|   |   |   +-- jquery-3.6.0.min.js
-|   |   |   \-- jquery-3.6.0.min.map
-|   |   \-- navigation-1.1
-|   |       +-- codefolding-lua.css
-|   |       +-- codefolding.js
-|   |       +-- sourceembed.js
-|   |       \-- tabsets.js
-|   +-- README.md
-|   +-- rmarkdown-cheatsheet-2.0.pdf
-|   +-- rmarkdown-reference.pdf
-|   \-- rstudio-IDE-cheatsheet.pdf
+units
 +-- 00-foundations
-|   +-- helpful-vocabulary.docx
+|   +-- handouts
+|   |   +-- base-r-cheatsheet.pdf
+|   |   +-- data-wrangling-cheatsheet.pdf
+|   |   +-- dplyr-cheatsheet.pdf
+|   |   +-- latex-formula-syntax.pdf
+|   |   +-- README.md
+|   |   +-- rmarkdown-cheatsheet-2.0.pdf
+|   |   +-- rmarkdown-reference.pdf
+|   |   \-- rstudio-IDE-cheatsheet.pdf
 |   +-- img
 |   |   +-- ch-001-image1.jpg
 |   |   +-- ch-001-image2.jpg
@@ -147,8 +71,9 @@ units
 |   |   \-- rmd_output_types.png
 |   +-- pubs
 |   |   +-- data-science-sexiest-job-21st-century.pdf
-|   |   \-- r-is-still-hot.pdf
-|   +-- r-style-guide.docx
+|   |   +-- helpful-vocabulary.docx
+|   |   +-- r-is-still-hot.pdf
+|   |   \-- r-style-guide.docx
 |   +-- README.md
 |   +-- topic-00x01-core-r.html
 |   +-- topic-00x01-core-r.rmd
@@ -158,18 +83,14 @@ units
 |   +-- topic-00x03-markdown.rmd
 |   +-- topic-00x04-data-driven-docs.html
 |   +-- topic-00x04-data-driven-docs.rmd
-|   +-- topic-00x05-learning-r.html
-|   +-- topic-00x05-learning-r.rmd
+|   +-- topic-00x05-rmarkdown-tutorial.html
+|   +-- topic-00x05-rmarkdown-tutorial.rmd
+|   +-- topic-00x06-learning-curve.html
+|   +-- topic-00x06-learning-curve.rmd
 |   +-- vid-01-rstudio-tour.mp4
 |   +-- vid-02-github-issues.mp4
 |   +-- vid-03-markdown.mp4
-|   +-- vid-04-data-driven-docs.mp4
-|   \-- VideoDecodeStats
-|       +-- 000003.log
-|       +-- CURRENT
-|       +-- LOCK
-|       +-- LOG
-|       \-- MANIFEST-000001
+|   \-- vid-04-data-driven-docs.mp4
 +-- 01-building-blocks-of-r
 |   +-- handout-functions-and-arguments.docx
 |   +-- img
@@ -181,12 +102,13 @@ units
 |   |   \-- vectors.png
 |   +-- lab-01-instructions.html
 |   +-- lab-01-instructions.rmd
-|   +-- lab-01-template.Rmd
+|   +-- lab-01-template.rmd
 |   +-- README.md
-|   +-- topic-01x01-objects-and-assignment.Rmd
+|   +-- topic-01x01-objects-and-assignment.rmd
 |   +-- topic-01x02-functions.html
 |   +-- topic-01x02-functions.rmd
-|   +-- topic-01x03-programming.Rmd
+|   +-- topic-01x03-programming.html
+|   +-- topic-01x03-programming.rmd
 |   +-- topic-01x04-vectors.html
 |   +-- topic-01x04-vectors.rmd
 |   +-- topic-01x05-data-frames.html
@@ -208,8 +130,8 @@ units
 |   |   +-- Land Use.pdf
 |   |   +-- Land_Use.png
 |   |   \-- Syracuse_Parcels.png
-|   +-- lab-02-data-dictionary-syr-parcels.html
-|   +-- lab-02-data-dictionary-syr-parcels.rmd
+|   +-- lab-02-data-dictionary.html
+|   +-- lab-02-data-dictionary.rmd
 |   +-- lab-02-instructions.html
 |   +-- lab-02-instructions.rmd
 |   +-- lab-02-template.rmd
@@ -226,36 +148,6 @@ units
 |   +-- img
 |   |   +-- anatomy_of_a_graph3.png
 |   |   +-- ch-102-ggplot2.rmd
-|   |   +-- ch-102-ggplot2_cache
-|   |   |   \-- html
-|   |   |       +-- unnamed-chunk-10_f96980c13a6630aae2c7303a8d90209b.RData
-|   |   |       +-- unnamed-chunk-10_f96980c13a6630aae2c7303a8d90209b.rdb
-|   |   |       +-- unnamed-chunk-10_f96980c13a6630aae2c7303a8d90209b.rdx
-|   |   |       +-- unnamed-chunk-11_6bd9b326bf8b50b37b1071f56ab441aa.RData
-|   |   |       +-- unnamed-chunk-11_6bd9b326bf8b50b37b1071f56ab441aa.rdb
-|   |   |       +-- unnamed-chunk-11_6bd9b326bf8b50b37b1071f56ab441aa.rdx
-|   |   |       +-- unnamed-chunk-13_efd5d6ef22b2a13ce29e7aa754470b62.RData
-|   |   |       +-- unnamed-chunk-13_efd5d6ef22b2a13ce29e7aa754470b62.rdb
-|   |   |       +-- unnamed-chunk-13_efd5d6ef22b2a13ce29e7aa754470b62.rdx
-|   |   |       +-- unnamed-chunk-3_62db6da416e5b10f770fe08f99d05d56.RData
-|   |   |       +-- unnamed-chunk-3_62db6da416e5b10f770fe08f99d05d56.rdb
-|   |   |       +-- unnamed-chunk-3_62db6da416e5b10f770fe08f99d05d56.rdx
-|   |   |       +-- unnamed-chunk-4_b1b9b158cbce349313469f751f83edaa.RData
-|   |   |       +-- unnamed-chunk-4_b1b9b158cbce349313469f751f83edaa.rdb
-|   |   |       +-- unnamed-chunk-4_b1b9b158cbce349313469f751f83edaa.rdx
-|   |   |       +-- unnamed-chunk-5_ef2d99f268efb200ef9fc5e2d8e2a66f.RData
-|   |   |       +-- unnamed-chunk-5_ef2d99f268efb200ef9fc5e2d8e2a66f.rdb
-|   |   |       +-- unnamed-chunk-5_ef2d99f268efb200ef9fc5e2d8e2a66f.rdx
-|   |   |       +-- unnamed-chunk-7_af9fc26b5bbc5f8871d8e7e422e5689c.RData
-|   |   |       +-- unnamed-chunk-7_af9fc26b5bbc5f8871d8e7e422e5689c.rdb
-|   |   |       +-- unnamed-chunk-7_af9fc26b5bbc5f8871d8e7e422e5689c.rdx
-|   |   |       +-- unnamed-chunk-8_40adb3ed4da1b43c7ebe3d148691bb43.RData
-|   |   |       +-- unnamed-chunk-8_40adb3ed4da1b43c7ebe3d148691bb43.rdb
-|   |   |       +-- unnamed-chunk-8_40adb3ed4da1b43c7ebe3d148691bb43.rdx
-|   |   |       +-- unnamed-chunk-9_3bdca52a5312ac567c81151b5bdfe49a.RData
-|   |   |       +-- unnamed-chunk-9_3bdca52a5312ac567c81151b5bdfe49a.rdb
-|   |   |       +-- unnamed-chunk-9_3bdca52a5312ac567c81151b5bdfe49a.rdx
-|   |   |       \-- __packages
 |   |   +-- ch-102-ggplot2_files
 |   |   |   \-- figure-html
 |   |   |       +-- unnamed-chunk-10-1.png
@@ -268,11 +160,15 @@ units
 |   |   +-- gapminder_graphic.jpg
 |   |   +-- gapminder_visualization.r
 |   |   +-- ggplot2_recipe.jpg
-|   |   \-- reis_syracuse.jpg
+|   |   +-- reis_syracuse.jpg
+|   |   +-- strikeouts.png
+|   |   \-- strikeouts2.png
+|   +-- lab-03-v1-instructions.html
 |   +-- lab-03-v1-instructions.rmd
 |   +-- lab-03-v1-template.rmd
-|   +-- lab-03-v2-instructions.RMD
-|   +-- lab-03-v2-template.Rmd
+|   +-- lab-03-v2-instructions.html
+|   +-- lab-03-v2-instructions.rmd
+|   +-- lab-03-v2-template.rmd
 |   +-- practice-03x01-plot.R
 |   +-- practice-03x02-plot.R
 |   +-- practice-03x03-custom-graphics.R
@@ -296,24 +192,38 @@ units
 |   +-- topic-03x00-tips-for-data-viz.pptx
 |   +-- topic-03x01-intro-to-data-viz.html
 |   +-- topic-03x01-intro-to-data-viz.rmd
+|   +-- topic-03x02-plotting-basics.html
 |   +-- topic-03x02-plotting-basics.rmd
 |   +-- topic-03x03-custom-graphs-example.html
 |   +-- topic-03x03-custom-graphs-example.rmd
+|   +-- topic-03x03-custom-graphs.html
 |   +-- topic-03x03-custom-graphs.rmd
-|   \-- topic-03x04-ggplot2.Rmd
+|   +-- topic-03x04-ggplot2.html
+|   +-- topic-03x04-ggplot2.rmd
 +-- 04-data-viz-dynamic
-|   +-- demo-shiny-01.Rmd
-|   +-- demo-shiny-02.Rmd
-|   +-- demo-shiny-03.Rmd
+|   +-- demo-shiny-01.rmd
+|   +-- demo-shiny-02.rmd
+|   +-- demo-shiny-03.rmd
+|   +-- img
+|   |   +-- anatomy_of_a_graph3.png
+|   |   +-- download.png
+|   |   +-- eddie_gaedel.png
+|   |   +-- gapminder_graphic.jpg
+|   |   +-- gapminder_visualization.r
+|   |   +-- ggplot2_recipe.jpg
+|   |   +-- lab-04-demo.gif
+|   |   +-- reis_syracuse.jpg
+|   |   +-- strikeouts.png
+|   |   \-- strikeouts2.png
 |   +-- Lab-04-LastName-all-v3.zip
 |   +-- lab-04a-instructions.html
 |   +-- lab-04a-instructions.rmd
 |   +-- lab-04a-template.rmd
+|   +-- lab-04b-flexdashboard-template.rmd
+|   +-- lab-04b-instructions.html
 |   +-- lab-04b-instructions.rmd
-|   +-- lab-04b-templates
-|   |   +-- Lab Assignment - Flexdashboard Template.Rmd
-|   |   +-- Lab Assignment - Shiny Dashboard Plus Template.R
-|   |   \-- Lab Assignment - Shiny Template.R
+|   +-- lab-04b-shiny-dashboard-plus-template.R
+|   +-- lab-04b-shiny-template.R
 |   +-- README.md
 |   +-- topic-04x01-shiny-widgets.pdf
 |   +-- topic-04x01-shiny-widgets.pptx
@@ -330,9 +240,12 @@ units
 |   |   +-- filter.png
 |   |   +-- group_plus_function.png
 |   |   \-- select.png
+|   +-- lab-05-instructions.html
 |   +-- lab-05-instructions.rmd
-|   +-- lab-05-template.Rmd
-|   +-- practice-05-data-verbs-dplyr.R
+|   +-- lab-05-instructions_files
+|   |   \-- figure-html
+|   +-- lab-05-template.rmd
+|   +-- practice-05x03-data-verbs-dplyr.R
 |   +-- README.md
 |   +-- topic-05x01-data-verbs.rmd
 |   +-- topic-05x02-group-by.rmd
@@ -342,138 +255,70 @@ units
 |   +-- img
 |   |   +-- compound_ids.png
 |   |   +-- download.png
+|   |   +-- dplyr-joins.png
 |   |   +-- inner_join.png
 |   |   +-- left_join.png
 |   |   +-- outer_join.png
 |   |   +-- right_join.png
 |   |   \-- shared_observations.png
+|   +-- lab-06-instructions.html
 |   +-- lab-06-instructions.rmd
-|   +-- lab-06-template.Rmd
+|   +-- lab-06-template.rmd
 |   +-- README.md
 |   +-- topic-06x01-data-joins.rmd
-|   \-- topic-06x02-data-binds.Rmd
+|   \-- topic-06x02-data-binds.rmd
 +-- 07-dashboards
 |   +-- demo-flexdashboard-column-orientation.html
-|   +-- demo-flexdashboard-column-orientation.Rmd
+|   +-- demo-flexdashboard-column-orientation.rmd
 |   +-- demo-flexdashboard-three-window-layout.html
-|   +-- demo-flexdashboard-three-window-layout.Rmd
+|   +-- demo-flexdashboard-three-window-layout.rmd
 |   +-- img
 |   |   \-- download.png
 |   +-- lab-07-dashboard-template-v1.rmd
 |   +-- lab-07-dashboard-template-v2.rmd
-|   +-- lab-07-dashboard-template-v3.Rmd
+|   +-- lab-07-dashboard-template-v3.rmd
 |   +-- lab-07-instructions.html
 |   +-- lab-07-instructions.rmd
-|   +-- practice-07x01-flexdashboard.Rmd
-|   +-- practice-07x02-flexdashboard.Rmd
+|   +-- practice-07x01-flexdashboard.rmd
+|   +-- practice-07x02-flexdashboard.rmd
 |   +-- practice-07x03-shiny.R
 |   +-- practice-07x04-shiny-plus.R
 |   +-- README.md
-|   \-- topic-07x01-flexdashboards.Rmd
-+-- data
-|   +-- BabyNames.csv
-|   +-- BabyNames.rds
-|   +-- CASchools.R
-|   +-- census_population_2000_and_2010.csv
-|   +-- corn_stalks.R
-|   +-- create_nonprofit_dataset.R
+|   +-- topic-07x01-flexdashboards.html
+|   \-- topic-07x01-flexdashboards.rmd
++-- 99-code-through
+|   +-- code-through-assignment.html
+|   +-- code-through-assignment.rmd
+|   \-- code-through-template.rmd
++-- COURSE-FACILITATION-GUIDE.docx
++-- data-extra
+|   +-- baby-names.csv
+|   +-- baby-names.rds
+|   +-- california-schools.R
+|   +-- census-population-2000-and-2010.csv
+|   +-- corn-stalks.R
 |   +-- data-state-x77-life-expectancy-usa.csv
-|   +-- download_tempe_traffic_data.R
+|   +-- download-tempe-traffic-data.R
 |   +-- downtown-syr.geojson
-|   +-- get_census_data.html
-|   +-- get_census_data.Rmd
+|   +-- get-census-data.html
+|   +-- get-census-data.rmd
 |   +-- life-expectancy-raw.csv
-|   +-- life-expectancy-who.html
 |   +-- life-expectancy-who.rmd
-|   +-- life-expectancy-who_files
-|   |   +-- bootstrap-3.3.5
-|   |   |   +-- css
-|   |   |   |   +-- bootstrap-theme.css
-|   |   |   |   +-- bootstrap-theme.css.map
-|   |   |   |   +-- bootstrap-theme.min.css
-|   |   |   |   +-- bootstrap.css
-|   |   |   |   +-- bootstrap.css.map
-|   |   |   |   +-- bootstrap.min.css
-|   |   |   |   +-- cerulean.min.css
-|   |   |   |   +-- cosmo.min.css
-|   |   |   |   +-- flatly.min.css
-|   |   |   |   +-- fonts
-|   |   |   |   |   +-- Lato.ttf
-|   |   |   |   |   +-- LatoBold.ttf
-|   |   |   |   |   +-- LatoItalic.ttf
-|   |   |   |   |   +-- NewsCycle.ttf
-|   |   |   |   |   +-- NewsCycleBold.ttf
-|   |   |   |   |   +-- OpenSans.ttf
-|   |   |   |   |   +-- OpenSansBold.ttf
-|   |   |   |   |   +-- OpenSansBoldItalic.ttf
-|   |   |   |   |   +-- OpenSansItalic.ttf
-|   |   |   |   |   +-- OpenSansLight.ttf
-|   |   |   |   |   +-- OpenSansLightItalic.ttf
-|   |   |   |   |   +-- Raleway.ttf
-|   |   |   |   |   +-- RalewayBold.ttf
-|   |   |   |   |   +-- Roboto.ttf
-|   |   |   |   |   +-- RobotoBold.ttf
-|   |   |   |   |   +-- RobotoLight.ttf
-|   |   |   |   |   +-- RobotoMedium.ttf
-|   |   |   |   |   +-- SourceSansPro.ttf
-|   |   |   |   |   +-- SourceSansProBold.ttf
-|   |   |   |   |   +-- SourceSansProItalic.ttf
-|   |   |   |   |   +-- SourceSansProLight.ttf
-|   |   |   |   |   \-- Ubuntu.ttf
-|   |   |   |   +-- journal.min.css
-|   |   |   |   +-- lumen.min.css
-|   |   |   |   +-- paper.min.css
-|   |   |   |   +-- readable.min.css
-|   |   |   |   +-- sandstone.min.css
-|   |   |   |   +-- simplex.min.css
-|   |   |   |   +-- spacelab.min.css
-|   |   |   |   +-- united.min.css
-|   |   |   |   \-- yeti.min.css
-|   |   |   +-- fonts
-|   |   |   |   +-- glyphicons-halflings-regular.eot
-|   |   |   |   +-- glyphicons-halflings-regular.svg
-|   |   |   |   +-- glyphicons-halflings-regular.ttf
-|   |   |   |   +-- glyphicons-halflings-regular.woff
-|   |   |   |   \-- glyphicons-halflings-regular.woff2
-|   |   |   +-- js
-|   |   |   |   +-- bootstrap.js
-|   |   |   |   +-- bootstrap.min.js
-|   |   |   |   \-- npm.js
-|   |   |   \-- shim
-|   |   |       +-- html5shiv.min.js
-|   |   |       \-- respond.min.js
-|   |   +-- figure-html
-|   |   |   +-- unnamed-chunk-3-1.png
-|   |   |   +-- unnamed-chunk-5-1.png
-|   |   |   \-- unnamed-chunk-5-2.png
-|   |   +-- jquery-1.11.3
-|   |   |   \-- jquery.min.js
-|   |   \-- navigation-1.1
-|   |       +-- codefolding.js
-|   |       +-- sourceembed.js
-|   |       \-- tabsets.js
 |   +-- life-expectancy.csv
-|   +-- msa_fips_crosswalk.csv
-|   +-- NationalNames.csv.zip
-|   +-- nonprofits_2000.csv
-|   +-- nonprofits_2000_2010.csv
-|   +-- nonprofits_2010.csv
+|   +-- msa-fips-crosswalk.csv
 |   +-- README.md
-|   +-- syr_parcels.csv
-|   +-- syr_parcels.geojson
-|   +-- syr_parcels.html
-|   +-- syr_parcels.rds
-|   +-- syr_parcels.Rmd
-|   +-- syr_parcels_files
-|   |   \-- figure-html
-|   +-- TempeTrafficAccidents.csv
-|   +-- TempeTrafficAccidents.rds
-|   +-- TempeTrafficAccidentsDataDictionary.csv
-|   \-- wooldridge-hprice3.csv
-\-- html
-    +-- footer.html
-    +-- lab-instructions.css
-    +-- lab-solutions.css
-    +-- lecture-notes.css
-    \-- ps1-gray.png
+|   +-- tempe-traffic-accidents-data-dictionary.csv
+|   +-- tempe-traffic-accidents.csv
+|   +-- tempe-traffic-accidents.rds
+|   \-- wooldridge-home-price3.csv
++-- get-assets.R
++-- html
+|   +-- footer.html
+|   +-- lab-instructions.css
+|   +-- lab-solutions.css
+|   +-- lecture-notes.css
+|   \-- ps1-gray.png
++-- README.md
+\-- unit-taxonomy.txt
+
 ```
