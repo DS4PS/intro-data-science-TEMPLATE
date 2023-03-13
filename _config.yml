@@ -73,6 +73,8 @@ header:
   url: schedule/
 # - title: Textbook
 #   url: https://ds4ps.org/dp4ss/#dp4ss-data-programming-for-the-social-sciences
+- title: Lab Templates
+  url: templates/
 - title: Review Sessions
   url: review/
 - title: Resources
